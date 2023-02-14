@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{%block title%}Home{% endblock title%}
+
+{%block content%}
+<div class="card mx-auto">
+    <div class="row g-0">
+        <div class="col-sm-6">
+            <img src="static/bootstrap/css/a.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-sm-6">
+            <div class="card-body">
+                <h5 class="card-title" href="#" role="button">BATMAN(Trending Now)</h5>
+                <p class="card-text">
+                <ul class="ul">
+                    <li>Movie Title : BATMAN</li>
+
+                    <li>Directed By : Jenish Kshetri</li>
+
+                    <li>Released Date : March,2023</li>
+
+                    <li>Writer : Jenish</li>
+
+                    <li>Stars : Abhinav karki,Nikita Shrestha</li>
+
+                </ul>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--Movies recommendation card-->
+<h2>Recommended Movies</h2>
+<div class="card" id="b" style="width: 18rem;">
+    <img src="static/bootstrap/css/4.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title" href="#" role="button" data-bs-toggle="dropdown">BATMAN
+        </h5>
+        <p class="card-text">
+        <ul>
+            <li>Duration: 1hr 40min</li>
+            <li>Released date: March,2023</li>
+        </ul>
+        </p>
+
+    </div>
+</div>
+<h2 id = 'z'>Explore</h2>
+<div class="card" id="b" style="width: 18rem;">
+    <img src="static/bootstrap/css/4.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title" href="#" role="button" data-bs-toggle="dropdown">BATMAN
+        </h5>
+        <p class="card-text">
+        <ul>
+            <li>Duration: 1hr 40min</li>
+            <li>Released date: March,2023</li>
+        </ul>
+        </p>
+
+    </div>
+</div>
+
+
+<!--footer-->
+<footer class="bg-dark text-center text-white">
+    
+    <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class=" fp mb-4">
+            <p>For Updates visit us at:</p>
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1"  href="#!" role="button">Facebook</a>
+
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">Twitter</a>
+
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">Google</a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">Instagram</a>
+
+            
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-white" href="http://127.0.0.1:8000">Chalchitra</a>
+    </div>
+    
+</footer>
+
+</div>
+
+
+
+
+
+{%endblock content%}
